@@ -1,0 +1,262 @@
+* {
+     margin:0;
+     padding:0;
+     border-sizing:border-box;
+ }
+
+html {
+    
+    scroll-behaviour:smooth;
+}
+
+body {
+    
+    background:lightgray;
+    background-repeat:no-repeat ;
+    overflow:scroll ;
+}
+
+header {
+    
+    background:rgba(0,0,0,0.8);
+    width:100%;
+    height:80px;
+}
+
+header h2 {
+    
+    float:left;
+    margin-left:8px;
+    margin-top:30px;
+    color:#fff;
+    text-transform:capitalize ;
+    letter-spacing:1px;
+    font-weight:bold;
+    
+}
+
+header ul {
+    
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+header ul li  {
+
+  
+    position:relative ;
+    top:30px;
+    right:-20px;
+    width:60px;
+    
+}
+
+header nav {
+    
+   display:inline-block;
+   justify-content:space-between;
+}
+
+header nav a {
+    
+    text-transform:capitalize ;
+    text-decoration:none;
+    color:#fff;
+}
+
+header nav a:hover {
+    
+    color:rgba(255,255,255,.7);
+    
+}
+
+header .menu ul {
+    
+    list-style:none;
+    color:#fff;
+    
+}
+
+header .menu ul li {
+    
+   position:relative ;
+   left:-90px;
+   top:0px;
+   color:#fff;
+   letter-spacing:2px;
+ 
+}
+
+header #mbar {
+    
+    margin:0;
+    padding:0;
+    list-style:none;
+    color:#fff;
+    width:321px;
+    height:408px;
+    background:black;
+    position:absolute ;
+    display:inline-block;
+    z-index:1000;
+    left:-22px;
+    top:-20px;
+    display:none;
+}
+
+header #mbar li {
+    
+   display:inline-block ;
+   justify-content:center ;
+   align-items:center ;
+   margin-left:200px;
+   margin-top:50px;
+   letter-spacing:1px;
+   border:1px solid #fff;
+   padding:5px;
+   width:100px;
+   text-align:center ;
+   border-radius:2px;
+   overflow:hidden ;
+}
+
+
+header #mbar li:hover {
+    
+    background:#03e9f4;
+    color:#0a4;
+    border:1px solid #03e9f4;
+    box-shadow:0 0 25px #03e9f4,
+               0 0 50px #03e9f4,
+               0 0 100px #03e9f4,
+               0 0 200px #03e9f4;
+               
+}
+
+header #mbar #cross {
+    
+    position:absolute ;
+    bottom:88%;
+    left:28px;
+    font-size:22px;
+}
+
+header .inpbox input {
+    
+    width:100px;
+    height:18px;
+    outline:none;
+    border:none;
+    float:right;
+    border-radius:1px;
+    position:relative ;
+    top:15px;
+    right:55px;
+    text-align:center ;
+    
+}
+
+header .inpbox button {
+    
+    float:right;
+    padding:2px;
+    position:absolute ;
+    right:13px;
+    top:15px;
+    border:none;
+    outline:none;
+    background:#03e9f4;
+    border-radius:2px;
+}
+
+header .inpbox input::placeholder {
+    
+    text-align:center ;
+}
+
+section {
+    
+     display:flex;
+     justify-content:center ;
+     align-items:center;
+}
+
+section h4 {
+    
+    margin-top:40px;
+    margin-left:-70px;
+    font-size:18px;
+    text-transform:capitalize ;
+    letter-spacing:1px;
+}
+
+section .para {
+    
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+}
+
+section .para p {
+    
+    font-weight:bold;
+    font-size:14px;
+    position:absolute ;
+    top:40%;
+    left:10%;
+    
+}
+
+article button {
+    
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+}
+
+article #btn1 {
+    
+    float:left ;
+    margin-top:100px;
+    margin-left:50px;
+    padding:10px 30px 10px 30px;
+    outline:none;
+    border:none;
+    border-radius:2px;
+    letter-spacing:1px;
+    font-family:sans-serif;
+    font-size:12px;
+    background:#03a9f4;
+}
+
+article #btn2 {
+    
+    float:right;
+    margin-top:100px;
+    margin-right:50px;
+    padding:10px 20px 10px 20px;
+    outline:none;
+    border:none;
+    border-radius:2px;
+    letter-spacing:1px;
+    font-family:sans-serif;
+    font-size:12px;
+}
+
+article .wlc {
+    
+    display:inline-block ;
+    justify-content:center ;
+    align-items:center ;
+}
+
+article .wlc h2 {
+    
+    margin-top:50px;
+    margin-left:30px;
+    text-align:center ;
+    letter-spacing:1px;
+    text-transform:capitalize ;
+}
